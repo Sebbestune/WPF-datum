@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp6_tidochdatum.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6_tidochdatum"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DatePicker Name="DatumPicker" HorizontalAlignment="Left" Margin="81,180,0,0" VerticalAlignment="Top" Width="137"/>
+        <ComboBox Name="TidsBox" HorizontalAlignment="Left" Margin="81,217,0,0" VerticalAlignment="Top" Width="137"/>
+        <Button Click="AddDateToList" Content="ForDatePicker" HorizontalAlignment="Left" Margin="111,257,0,0" VerticalAlignment="Top" />
+        <ListBox Name="MyListBox" Margin="466,0,0,0"/>
+        <Calendar Name="Kalender" HorizontalAlignment="Left" Margin="252,71,0,0" VerticalAlignment="Top"/>
+        <Button Content="ForCalendar" HorizontalAlignment="Left" Margin="308,257,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.66,0.42" Click="Button_Click"/>
+    </Grid>
+</Window>
